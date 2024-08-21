@@ -1,0 +1,99 @@
+.main{
+    /* border: solid red 2px; */
+    top: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+}
+.navigation{
+    /* border: solid 1px red; */
+    background-color: #f1f1f1;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: gold;
+    margin: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.right{
+    /* border: blue 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: solid 0px black;
+    background-color: #f1f1f1;
+}
+.right a:hover{
+    color: gold;
+}
+
+.clubPic{
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.events {
+    /* border: solid 1px black; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+}
+
+.eventPlane {
+    /* border: solid 1px rgb(21, 150, 49); */
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+}
+
+.eventCard {
+    /* border: solid 1px rgb(236, 67, 67); */
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px; 
+}
+.eventCard:hover {  
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+
+.eventCard p {
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.2;
+    font-size: 12px; 
+}
+.eventCard img {
+    border-radius: 5%;
+}
+

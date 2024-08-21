@@ -1,0 +1,19 @@
+<app-navigation></app-navigation>
+<div class="container">
+    <div class="signinContainer">
+        <form (ngSubmit)="onSubmit()">
+            <label>Email</label>
+            <input type="text" placeholder="email" [(ngModel)]="email" name="email">
+            <label>Password</label>
+            <input type="password" placeholder="password" [(ngModel)]="password" name="password">
+            <button type="submit" data-cy="signin-btn" value="Submit">Sign in</button>
+            <br>
+            <a routerLink="/passwordReset">Forgot Password?</a> /
+            <a routerLink="/signup" style="margin-top: 30px;">Are you new?</a>
+    
+        </form>
+    </div>
+
+</div>
+
+<app-footer></app-footer>
